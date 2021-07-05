@@ -1,6 +1,6 @@
-System.register("chunks:///_virtual/HelloWorld.ts",["./_rollupPluginModLoBabelHelpers.js","cc"],(function(o){"use strict";var t,e,r,l;return{setters:[function(o){t=o.inheritsLoose},function(o){e=o.cclegacy,r=o._decorator,l=o.Component}],execute:function(){var n;e._RF.push({},"8b648HUCVFLhLUWHK6b4k5y","HelloWorld",void 0);var c=r.ccclass;r.property,o("HelloWorld",c("HelloWorld")(n=function(o){function e(){return o.apply(this,arguments)||this}return t(e,o),e.prototype.start=function(){console.info("Hello world")},e}(l))||n);e._RF.pop()}}}));
+System.register("chunks:///_virtual/add.ts",["./_rollupPluginModLoBabelHelpers.js","cc"],(function(t){"use strict";var e,r,n,o;return{setters:[function(t){e=t.inheritsLoose},function(t){r=t.cclegacy,n=t._decorator,o=t.Component}],execute:function(){var c;r._RF.push({},"bfac3YIaMNFe487RBauPkwS","add",void 0);var s=n.ccclass;n.property,t("Add",s("Add")(c=function(t){function r(){return t.apply(this,arguments)||this}return e(r,t),r.prototype.start=function(){},r}(o))||c);r._RF.pop()}}}));
 
-System.register("chunks:///_virtual/main",["./HelloWorld.ts"],(function(){"use strict";return{setters:[null],execute:function(){}}}));
+System.register("chunks:///_virtual/main",["./add.ts"],(function(){"use strict";return{setters:[null],execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/main', 'chunks:///_virtual/main'); 
